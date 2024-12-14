@@ -1,0 +1,181 @@
+/* * @format
+
+body {
+	background: rgb(203, 216, 226);
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+header {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	background: rgb(162, 255, 246);
+	border-bottom: 0.5px solid rgb(0, 0, 0);
+	border-radius: 10px;
+}
+header a {
+	font-size: 15px;
+	color: black;
+	text-decoration-line: none;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+header p {
+	margin: 0;
+	font-size: 20px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 700;
+	height: 50%;
+	animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.2;
+	}
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 80%;
+}
+
+img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 2px 2px 2px rgb(59, 59, 59);
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	height: 300px;
+	width: 150px;
+	border: solid black 1px;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 10px;
+}
+
+button {
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	font-size: large259;
+	font-size: 15px;
+
+	padding: 5px;
+}
+
+button:hover {
+	box-shadow: 1px 1px 4px rgb(59, 59, 59);
+}
+
+.product-content {
+	align-self: center;
+}
+
+.product-name {
+	margin: 0;
+	font-size: 15px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 700;
+	height: 50%;
+}
+
+.product-price {
+	margin: 0;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 500;
+	height: 50%;
+}
+footer {
+	text-align: center;
+	color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 10px;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+} */
+/* Home Page Specific Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .page-header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 2rem;
+    color: #555;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }

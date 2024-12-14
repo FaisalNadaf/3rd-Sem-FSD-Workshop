@@ -1,0 +1,67 @@
+/** @format */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.navbar .logo {
+	font-size: 30px;
+	font-weight: bold;
+	animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.2;
+	}
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+}
+
+.navbar ul li a {
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.navbar ul li a:hover {
+	font-weight: 500;
+	color: black;
+}
+
+.navbar ul li a:hover {
+	text-decoration: underline;
+}
+.page-header {
+	text-align: center;
+	padding: 50px 0;
+	font-size: 2rem;
+	color: #555;
+}
+
+.footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+}

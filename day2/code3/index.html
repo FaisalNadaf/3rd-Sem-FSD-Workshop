@@ -1,0 +1,49 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>CSS Grid Example</title>
+		<style>
+			/* Grid Container */
+			.grid-container {
+				display: grid; /* Defines this as a grid container */
+				grid-template-columns: 200px 1fr 1fr; /* Three columns: fixed, flexible, flexible */
+				grid-template-rows: 100px auto; /* Two rows: fixed and dynamic */
+				gap: 10px; /* Space between rows and columns */
+				background-color: #f4f4f4;
+				padding: 10px;
+			}
+
+			/* Grid Items */
+			.grid-item {
+				background-color: #4682b4; /* Background color for grid items */
+				color: white; /* Text color */
+				padding: 20px; /* Inner spacing */
+				text-align: center; /* Center text alignment */
+				border: 2px solid #fff; /* Border for visual clarity */
+			}
+
+			/* Spanning Items */
+			.item-span {
+				grid-column: 1 / 4; /* Span all columns */
+				grid-row: 1 / 2; /* Occupy the first row */
+				background-color: #2e8b57; /* Different color for emphasis */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="grid-item item-span">Header (Spans All Columns)</div>
+			<div class="grid-item">Sidebar</div>
+			<div class="grid-item">Content</div>
+			<div class="grid-item">Additional Content</div>
+			<div class="grid-item">Footer</div>
+		</div>
+	</body>
+</html>
+c

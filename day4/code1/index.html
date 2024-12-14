@@ -1,0 +1,68 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Product Showcase</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Product Showcase</h1>
+			<select id="category-filter">
+				<option value="all">all</option>
+				<option value="Electronic">Electronic</option>
+				<option value="chocolates">chocolates</option>
+				<option value="Furniture">Furniture</option>
+				<option value="Clothes">Clothes</option>
+			</select>
+		</header>
+		<main>
+			<div class="product-list">
+				<div
+					class="product"
+					data-category="Electronic">
+					<h3 class="product-title">Laptop</h3>
+					<p>$500</p>
+					<button class="btn-add-to-cart">Add To cart</button>
+				</div>
+				<div
+					class="product"
+					data-category="Electronic">
+					<h3 class="product-title">mobile</h3>
+					<p>$100</p>
+					<button class="btn-add-to-cart">Add To cart</button>
+				</div>
+				<div
+					class="product"
+					data-category="chocolates">
+					<h3 class="product-title">dark choclate</h3>
+					<p>$300</p>
+					<button class="btn-add-to-cart">Add To cart</button>
+				</div>
+				<div
+					class="product"
+					data-category="Furniture">
+					<h3 class="product-title">Chair</h3>
+					<p>$100</p>
+					<button class="btn-add-to-cart">Add To cart</button>
+				</div>
+				<div
+					class="product"
+					data-category="Clothes">
+					<h3 class="product-title">shirt</h3>
+					<p>$333</p>
+					<button class="btn-add-to-cart">Add To cart</button>
+				</div>
+			</div>
+		</main>
+		<footer><p>@ 2024 Product Showcase</p></footer>
+		<script src="script.js"></script>
+	</body>
+</html>
